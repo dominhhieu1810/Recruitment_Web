@@ -1,0 +1,99 @@
+.body-job-content {
+    padding: 2vw 5vw;
+    background-color: rgb(234, 255, 232);
+
+
+    .list-job {
+        padding: 3% 2%;
+        margin: 0%;
+        background-color: white;
+        border-radius: 5px;
+
+        .box-smart-list-location {
+            margin: 3% 0%;
+
+            .active {
+                background-color: rgb(104, 209, 104) !important;
+                color: white;
+            }
+
+            .box-smart-item {
+                padding: 1%;
+                margin: 0% 1% 0 0;
+                background-color: rgb(227, 227, 227);
+                border-radius: 50px;
+            }
+
+            .box-smart-item:hover {
+                background-color: rgb(104, 209, 104);
+                color: white;
+            }
+        }
+
+        .job-body {
+            padding: 0%;
+
+            .job-items {
+                padding: none;
+                border-radius: 5px;
+                margin-bottom: 1vh;
+                position: relative;
+                display: block;
+                //padding: 5%;
+                color: black;
+                text-decoration: none;
+                border: 1px solid white;
+                background-color: rgb(211, 252, 238);
+
+                &:hover {
+                    border: 1px solid rgb(134, 236, 129);
+                    //border-radius: 5px;
+                    background-color: rgb(50, 211, 157);
+
+                }
+
+                .job-item {
+                    margin: 3%;
+
+
+
+                    .box-header {
+                        padding-bottom: 2%;
+                        border-bottom: 0.2px solid rgb(0, 0, 0);
+
+                        .avatar {
+                            background-color: white;
+                            border-radius: 5px;
+                            padding: 1%;
+                            height: 120px;
+                            width: 120px;
+
+                            .company-logo {
+                                height: auto;
+                                width: 100px;
+                            }
+                        }
+
+                        .bodyJob {
+                            margin-left: 3%;
+                        }
+                    }
+
+                    .label-content {
+                        padding: 2% 0%;
+
+                        .label-item {
+                            padding: 0% 2%;
+
+                            .icon {
+                                margin: 0 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}

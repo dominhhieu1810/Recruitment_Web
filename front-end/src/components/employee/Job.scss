@@ -1,0 +1,172 @@
+.job {
+    background-color: rgb(241, 241, 241);
+
+    .job-content {
+        margin: 2vw 5vw 0 5vw;
+        //background-color: rgb(255, 255, 255);
+
+        .box-header {
+            padding: 2%;
+            margin-bottom: 2%;
+            background-color: white;
+            border-radius: 5px;
+
+            .box-avatar {
+                padding: 2%;
+                border: 1px solid rgb(201, 201, 201);
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+
+                .company-logo{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+
+            .box-info {
+                padding-left: 3%;
+
+                .job-title {
+                    color: rgb(34, 183, 89);
+                }
+            }
+
+            .box-apply {
+                padding-left: 40%;
+                .apply-button {
+                    width: 300px;
+                    padding: 5% 7%;
+                    margin-bottom: 5%;
+                }
+                .save-button {
+                    width: 300px;
+                    padding: 5% 7%;
+                    border: 1px solid pink;
+                }
+            }
+
+
+        }
+
+        .box-main {
+            padding: 2%;
+            margin: 2% 0%;
+            background-color: white;
+            border-radius: 5px;
+
+            .general-information {
+                width: 70%;
+                background-color: rgb(242, 249, 242);
+                padding: 2%;
+                border-radius: 5px;
+                margin-bottom: 1%;
+
+                .title-table {
+                    font-weight: bold;
+                    text-decoration: underline;
+                    margin-bottom: 3%;
+
+
+                }
+
+                .info-item {
+                    padding: 2%;
+
+                    .info-icon {
+                        color: rgb(238, 0, 255);
+                        padding: 2%;
+                        
+                        border-radius: 50%;
+                        height: 30px;
+                        width: 30px;
+                        margin: 2%;
+
+                    }
+
+                    .info-content {
+                        margin-left: 2%;
+
+                        .title {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .work-address {
+                width: 70%;
+                background-color: rgb(242, 249, 242);
+                padding: 2%;
+                border-radius: 5px;
+                margin-bottom: 1%;
+
+                .title-address {
+                    font-weight: bold;
+                    text-decoration: underline;
+                    margin-bottom: 3%;
+
+
+                }
+            }
+
+            .job-description {
+                margin-bottom: 1%;
+
+                .title-description {
+                    font-weight: bold;
+                    margin: 2% 0%;
+                }
+            }
+
+            .job-requirement {
+                margin-bottom: 1%;
+
+                .title-requirement {
+                    font-weight: bold;
+                    margin: 2% 0%;
+                }
+            }
+
+            .job-benefit {
+                margin-bottom: 1%;
+
+                .title-benefit {
+                    font-weight: bold;
+                    margin: 2% 0%;
+                }
+            }
+        }
+
+        .box-company {
+            padding: 2%;
+            margin: 2% 0%;
+            background-color: white;
+            border-radius: 5px;
+
+            .info-icon {
+                padding: 1% 3%;
+
+                .icon {
+                    background-color: aquamarine;
+                    color: rgb(222, 54, 54);
+                    padding: 100%;
+                    border-radius: 50%;
+                    height: 20px;
+                    width: 20px;
+                }
+
+            }
+
+            .info-content {
+                padding: 1% 2%;
+
+                .title {
+                    font-weight: bold;
+                    padding-bottom: 2%;
+                }
+            }
+
+        }
+    }
+}

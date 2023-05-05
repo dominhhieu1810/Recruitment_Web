@@ -1,0 +1,71 @@
+.employeenavbar {
+    
+    background-color: white;
+    border-bottom: 0.1px solid rgb(233, 232, 232);
+    padding: 0% 2%;
+
+    .unlogin {
+        width: 350px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 125px;
+    }
+
+    .active{
+        // border-bottom: 5px solid green;
+        color: green !important;
+        border-bottom: 2px solid green;
+    }
+    .nav-item {
+        font-weight: bolder !important;
+        padding: 3%;
+
+        .dropdown{
+            background-color: green;
+            border-radius: 30px;
+            margin-right: 20px;
+            .dropdown-toggle{
+                color: white;
+            }
+        }
+    }
+
+    // .nav-item :hover {
+    //     background-color: rgb(242, 238, 238);
+    //     border-radius: 5px;
+    //     color: green;
+    // }
+
+    .job-list {
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+        //color: black;
+    }
+
+    .sign-up {
+        border: 1px solid green;
+        color: green;
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .log-in {
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .employer-web {
+        background-color: rgb(72, 74, 72);
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+    }
+}
